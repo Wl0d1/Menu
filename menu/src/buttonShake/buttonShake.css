@@ -1,0 +1,18 @@
+.btn-shake {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    color: orange;
+    background-color: transparent;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.btn-shake:hover {
+    background-color: orange;
+    color: white;
+    transition: 1000ms;
+}
