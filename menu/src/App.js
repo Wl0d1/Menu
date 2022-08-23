@@ -1,12 +1,17 @@
 import "./App.css";
 import Header from './header/header.js'
+import ButtonAll from './buttonAll/buttonAll.js'
 
 function App() {
   return <div className="App">
     <main>
     <section>
       <Header />
-    </section></main>
+      <div>
+        <ButtonAll />
+      </div>
+    </section>
+    </main>
   
   </div>;
 }
